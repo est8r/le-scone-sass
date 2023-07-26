@@ -1,0 +1,18 @@
+footer{
+  padding: 20px 0;
+  background: $cor-terciaria;
+  @include box-shadow(0 0 0 10px $cor-terciaria) ;
+  p{
+    color: $cor-secundaria;
+    @include device(s){
+      text-align: center;
+    }
+  }
+  img{
+    float: right;
+    @include device(s){
+      float: none;
+      margin: 20px auto;
+    }
+  }
+}
